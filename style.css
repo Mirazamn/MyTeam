@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Livvic', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Livvic', sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background: #014E56;
+}
+
+header .container {
+    justify-content: space-between;
+    color: #fff;
+}
+
+section .container {
+    justify-content: space-between;
+}
+
+header {
+   padding-top: 73px; 
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.nav {
+    gap: 40px;
+}
+ 
+li a {
+    color: #fff;
+}
+
+#contact-btn {
+    border: 2px solid #FFFFFF;
+    background: transparent;
+    padding: 11px 33px;
+    border-radius: 24px;
+}
+
+
+#contact-btn:hover {
+    background-color: #fff;
+    color: #002529;
+}
+
+.first-sn {
+    padding: 120px 0;
+}
+
+.first-sn .container {
+    color: #fff;
+    justify-content: space-between;
+}
+
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+.info {
+    font-size: 18px ;
+    font-weight: 600;
+    width: 730px;
+    padding-top: 44px;
+
+
+}
+
+
+#main-title {
+    width: fit-content;
+    margin: 70px auto;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff ;
+}
+
+.card {
+    width: 350px;
+    padding: 34px 24px 24px 24px;
+    background: #012F34;
+    text-align: center;
+    color:#fff;
+ }
+
+.cards {
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-name {
+    font-weight: 700;
+    font-size: 18px;
+    color: #79C8C7;
+    margin-top: 23px;
+
+}
+
+.plus {
+    width: fit-content;
+    display: block;
+    background: #F67E7E;
+    color: #012F34;
+    padding: 20px 25px;
+    transform: translateY(50px);
+    border-radius: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-prof {
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+main {
+    padding-bottom: 160px;
+    background: #004047;
+    padding-top: 71px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width:565px){
+ .nav {
+    display: none;
+ }
+ .mobile-menu {
+    display: inline-block;
+    width: fit-content;
+ }
+
+.first-sn .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.info {
+    width: 367px;
+}
+
+}
+
+
+.clients-section {
+    padding: 114px 0;
+    background-color: #012F34;
+}
+
+
+.clients-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contactus {
+    padding: 75px 260px;
+    background-color: #F67E7E;
+}
+
+
+.contactus h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    text-align: left;
+}
+
+
+.contactus button {
+    width: 153px;
+    height: 48px;
+    border: 2px solid #012F34;
+    background: transparent;
+    border-radius: 24px;
+}
+
+
+.contactus button:hover {
+    background-color: #002529;
+}
+
+
+.contactus button a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #012F34;
+}
+
+
+.contactus button:hover a{
+    color: #fff;
+}
+
+
+footer {
+    padding: 48px 171px;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.social-media img {
+    width: 24px;
+    height: 19.5px;
+}
